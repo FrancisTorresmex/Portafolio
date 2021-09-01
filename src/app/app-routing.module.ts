@@ -6,7 +6,7 @@ import { ListaDelDiaComponent } from './page/lista-del-dia/lista-del-dia.compone
 
 //rutas de la pagina
 const ROUTES: Routes = [
-  {path: 'home', component:HomeComponent},
+  // {path: 'home', component:HomeComponent},
   {path: 'proyecto', component:ListaDelDiaComponent}
 ];
 
