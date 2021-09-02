@@ -3,11 +3,14 @@ import { CommonModule } from '@angular/common';
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './page/home/home.component';
 import { ListaDelDiaComponent } from './page/lista-del-dia/lista-del-dia.component';
+import { ProyectoComponent } from './proyecto/proyecto.component';
 
 //rutas de la pagina
 const ROUTES: Routes = [
-  // {path: 'home', component:HomeComponent},
-  {path: 'proyecto', component:ListaDelDiaComponent}
+  {path: '', component:HomeComponent},
+  {path: 'home', component:HomeComponent},
+  // {path: 'proyecto', component:ListaDelDiaComponent},
+  {path: 'proyecto/:id', component: ProyectoComponent}
 ];
 
 const routerOptions: ExtraOptions = {

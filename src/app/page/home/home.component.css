@@ -41,8 +41,8 @@ footer {
 }
 
 .miFoto {
-    width: 350px;
-    height: 320px;
+    width: 300px;
+    height: 360px;
     margin-bottom: 1em;
     max-width: 100%;    
     border-radius: 180px;
@@ -109,18 +109,24 @@ footer {
     padding: 1em;        
 }
 
-.correo {              
+.correo {      
+    margin-bottom: 2em;        
     text-align: center;
 }
 
-#container4 {    
+#container4 { 
+    text-align: center;    
+    display: block;   
+    margin: auto;
 }
 
-.imgContacto{
-    margin-left: 3em;    
-    display: flex;
+.imgContacto{        
+    width: 40%;       
+    display: block;
+    margin: auto;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     cursor: pointer;
 }
 
@@ -132,15 +138,12 @@ footer {
     text-align: center;
 }
 
-.formulario {        
+.formulario {            
     margin: 1em;    
     padding: 1em;
     width: 100%;    
 }
 
-.form-label {    
-    /* margin-right: 1em; */
-}
 
 .form-control {    
     position: static;
@@ -148,12 +151,13 @@ footer {
     border-color: teal;
 }
 
-textarea {
+textarea {    
     border-color: darkgoldenrod;
 }
 
 
-input:focus {
+input:focus {      
+    position: static;      
     border-color: rgb(86, 223, 223);        
 }
 
@@ -161,9 +165,12 @@ textarea:focus {
     border-color: rgb(86, 223, 223);        
 }
 
+
 .textForm {
+    position: static;
     width: 100%;
 }
+
 
 .input-group {  
     position: static;  

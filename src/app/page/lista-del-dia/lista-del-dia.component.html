@@ -1,1 +1,14 @@
-<p>lista-del-dia works!</p>
+<div class="container" id="container3">
+    <div class="row">
+        <div class="col-sm-12, col-md-12, col-lg-4" id="colP1" *ngFor="let item of proyectos; let i = index">
+            <div class="card">
+                <img [src]="item.imagen" class="card-img-top imgProyecto" alt="item.nombre">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.nombre}}</h5>
+                  <p class="card-text, fs-6">{{item.desc}}</p>
+                  <button (click)="verProyecto(i)" type="button" class="btn">Ver mas</button>
+                </div>
+              </div>
+        </div>                                 
+    </div>
+</div>

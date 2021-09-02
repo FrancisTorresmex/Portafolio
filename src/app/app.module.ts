@@ -8,6 +8,7 @@ import { HomeComponent } from './page/home/home.component';
 import { ListaDelDiaComponent } from './page/lista-del-dia/lista-del-dia.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { ProyectoComponent } from './proyecto/proyecto.component';
 
 
 
@@ -17,7 +18,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     AppComponent,       
     HomeComponent, 
     ListaDelDiaComponent, 
-    NavbarComponent, FooterComponent,
+    NavbarComponent, FooterComponent, ProyectoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+#container3 {    
+    background: whitesmoke;            
+    margin-top: 1em;    
+    padding: 1em;    
+}
+
+.card {
+    position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/
+    text-align: center;
+}
+
+.imgProyecto {
+    display: block;
+    margin: auto;
+    padding: 1em;
+    width: 350px;
+    max-width: 100%;
+    
+}
+
+#colP1 {        
+    padding: 1em;        
+}
+
+.btn {
+    margin-top: 1em;
+    background: teal;
+    color: white;
+        
+}

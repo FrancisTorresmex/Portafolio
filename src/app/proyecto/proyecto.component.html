@@ -1,0 +1,73 @@
+    <nav class="navbar navbar-expand-lg navbar-light miNav">
+
+        <a class="navbar-brand">
+          <img src="https://res.cloudinary.com/da3adzyke/image/upload/v1630465660/imagenes%20protafolio/kyfa1njm5rqsvmq3ms3d.png" class="iconoNav" alt="Francisco Torres">                
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+    
+            <li class="nav-item" routerLinkActive="Active">
+                <a class="nav-link volver" routerLink="/home">Volver</a>
+            </li>      
+
+            <li class="nav-item" routerLinkActive="Active">
+                <a class="nav-link" [routerLink] (click)="irSeccion(Info)">Información</a>
+            </li> 
+
+            <li class="nav-item" routerLinkActive="Active">
+                <a class="nav-link" [routerLink] (click)="irSeccion(img)">Imagenes</a>
+            </li> 
+  
+          </ul>
+        </div>
+      
+    </nav>
+
+    <article class="articuloProyecto">
+
+        <p #Info></p>
+        <p class="fs-1 titulo">{{proyecto.nombre}}</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12, col-md-12, col-lg-6">
+                    <img [src]="proyecto.imagen" class="imgProyecto" alt="proyecto.nombre">
+                </div>
+                <div class="col-sm-12, col-md-12, col-lg-6 descripcion">
+
+                    <p class="fs-3 descProyecto">
+                        {{masDatosProyecto.info}}
+                    </p>
+                    <!-- <p class="fs-3 descProyecto" *ngIf="masDatosProyecto.info2 == ''"> no hay</p> -->
+                    <p class="fs-3 descProyecto" *ngIf="masDatosProyecto.info2 != ''">
+                        {{masDatosProyecto.info2}}
+                    </p>                                        
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="fs-3 lenguaje">Lenguaje: {{masDatosProyecto.lenguaje}}</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Mas imagenes-->
+        <p #img></p>
+        <p class="fs-1 titulo">Imagenes</p>
+        <div class="container container1">
+            <div class="row">
+                <div class="col-sm-12, col-md-12, col-lg-6" *ngFor="let item of masDatosProyecto.imagenes">
+                    <img [src]="item" class="masImg" alt="proyecto.nombre">
+                    <!-- <img [src]="masDatosProyecto.imagenes[1]" class="masImg" alt="proyecto.nombre"> -->
+                </div>                
+            </div>
+        </div>
+
+    </article>
+
