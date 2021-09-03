@@ -12,7 +12,9 @@ import { NavbarComponent } from '../../shared/navbar/navbar.component';
 
 export class HomeComponent implements OnInit {  
 
-  elemento: any;   
+  elemento: any;
+
+  linkCV = 'https://drive.google.com/file/d/1kr_ygAjJjU_nTZvjsgEvgJT8_WHNzNGZ/view?usp=sharing'; //para el link de mi curriculum almacenado en drive
    
   constructor() { }
 

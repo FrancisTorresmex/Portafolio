@@ -9,6 +9,8 @@ import { ListaDelDiaComponent } from './page/lista-del-dia/lista-del-dia.compone
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
+import { ContactoComponent } from './shared/contacto/contacto.component';
+
 
 
 
@@ -18,11 +20,11 @@ import { ProyectoComponent } from './proyecto/proyecto.component';
     AppComponent,       
     HomeComponent, 
     ListaDelDiaComponent, 
-    NavbarComponent, FooterComponent, ProyectoComponent,
+    NavbarComponent, FooterComponent, ProyectoComponent, ContactoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,    
+    AppRoutingModule,        
   ],
   providers: [],
   bootstrap: [AppComponent]

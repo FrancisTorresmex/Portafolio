@@ -21,9 +21,19 @@ header {
     width: 100%;
 }
 
-footer {    
-    background: rgb(0, 116, 124);
+/* li:hover {    
+    background-color: teal;    
+} */
+
+a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
+    color: white;    
 }
+
+.nav-link:hover {
+    color: white;
+    background-color: rgb(75, 182, 182);
+}
+
 
 /* .miFoto {
     width: 300px;
@@ -104,6 +114,20 @@ footer {
     width: 350px;
     max-width: 100%;
     
+}
+
+.containerCV {    
+    max-width: 50%;    
+    display: block;
+    background-color: rgb(124, 212, 212);
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.linkCurriculum {
+    color: black;    
+    padding-top: 1em;
+    padding-bottom: 2em;    
 }
 
 #colP1 {        
