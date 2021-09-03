@@ -1,6 +1,7 @@
 * {    
     margin-bottom: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     */
+    font-family: Esteban;
     font-size: 1.03em;
 }
 
@@ -66,6 +67,14 @@
     width: 60%;
     margin-top: 3em;        
     margin-bottom: 3em;
+}
+
+.masImg2 {
+    display: block;
+    margin: auto;
+    margin-top: 3em;        
+    margin-bottom: 3em;
+    width: 100%;
 }
 
 .descProyecto {

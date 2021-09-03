@@ -60,10 +60,19 @@
         <!--Mas imagenes-->
         <p #img></p>
         <p class="fs-1 titulo">Imagenes</p>
-        <div class="container container1">
+        <div class="container container1"> <!--capturas de celular-->
             <div class="row">
                 <div class="col-sm-12, col-md-12, col-lg-6" *ngFor="let item of masDatosProyecto.imagenes">
                     <img [src]="item" class="masImg" alt="proyecto.nombre">
+                    <!-- <img [src]="masDatosProyecto.imagenes[1]" class="masImg" alt="proyecto.nombre"> -->
+                </div>                
+            </div>
+        </div>
+
+        <div class="container container1"> <!--capturas de computadora-->
+            <div class="row">
+                <div class="col-sm-12, col-md-12, col-lg-12" *ngFor="let item of masDatosProyecto.imagenes2">
+                    <img [src]="item" class="masImg2" alt="proyecto.nombre">
                     <!-- <img [src]="masDatosProyecto.imagenes[1]" class="masImg" alt="proyecto.nombre"> -->
                 </div>                
             </div>

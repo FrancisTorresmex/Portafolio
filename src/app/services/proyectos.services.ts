@@ -59,20 +59,27 @@ export class ServiceProyecto {
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630528164/imagenes%20protafolio/Super_farmacias_castillo/omdg2wbacoobbek63os0.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630528164/imagenes%20protafolio/Super_farmacias_castillo/dpejk5ug1ckl49ka0x0i.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630528163/imagenes%20protafolio/Super_farmacias_castillo/pzkrxriu7sxden6iq5at.jpg',                
-            ]
+            ],
+            imagenes2: [],
         },
         {    
             info: 'BPAlarm es un conjunto de aplicación web, móvil y dispositivo arduino, en donde para desacargar la app debes registrarte en la aplicación web, luego podras descargar la aplicación móvil, inicar sesión y activar o desactivar tu BpAlarm',
             info2:'Creado mediante una aplicación móvil, HC-05, alarma, sensores y arduino Uno se diseño un dispositivo que se coloca en la mochila. Sonando cada vez que se activa y detecta que la mochila se movio de lugar',
             lenguaje: 'C#, TypeScript, C++, Net Core, Iónic',
-            imagenes: [
+            imagenes: [                                                                
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450886/imagenes%20protafolio/BpAlarm/rclbcuyh8hbrizwhgls4.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1630449210/imagenes%20protafolio/BpAlarm/znoeujev33jhz8umtxzp.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/ndan0megiw34rhulamtd.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/ymndn32lmafowv7hbtii.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/fgegwjplos23rnbbaegk.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/cxxfd0mfmcm2sdqugfct.jpg',
-                'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/f1hjrrbddzvbru3tvdrm.jpg',
-            ]
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1630530746/imagenes%20protafolio/BpAlarm/f1hjrrbddzvbru3tvdrm.jpg',                
+            ],
+            imagenes2: [
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1630629002/imagenes%20protafolio/BpAlarm/aou2uxysqrxcztxh0ox6.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1630629002/imagenes%20protafolio/BpAlarm/hndlfilpfwe5a9e5hkjd.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1630629001/imagenes%20protafolio/BpAlarm/hpcvu7ag436qkb9xp4gn.jpg',
+            ],
         },
         {    
             info: 'Lista del día es una aplicación multiplataforma en la cual se puede agregar tareas importantes que se deben hacer durante el dia, esto mediante Sqflite la cual guarda las cosas completadas, se puede eliminar, modificar o agregar nuvas tareas.',
@@ -83,7 +90,8 @@ export class ServiceProyecto {
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/p7va9vdv4mgqxttoyqkr.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/gyh6wecflzlqjzqysxhk.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/em0b1yebzsznkcextced.jpg'
-            ]
+            ],
+            imagenes2: [],
         },
         {    
             info: 'BabyHealth es una página web en la que al iniciar sesión puedes obtener información importante respecto a temas del embarazo, desde cuidados, ejercicios, videos, hasta recetas de papilla para bébes.',
@@ -92,7 +100,8 @@ export class ServiceProyecto {
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/gyh6wecflzlqjzqysxhk.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/em0b1yebzsznkcextced.jpg'
-            ]
+            ],
+            imagenes2: [],
         },
         {    
             info: 'Tus deberes es una aplicación móvil en la cual puedes escribir las tareas que debes hacer así como cosas importantes.',
@@ -103,7 +112,8 @@ export class ServiceProyecto {
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450311/imagenes%20protafolio/Tus_deberes/prdpcckbu7og38jytibn.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450312/imagenes%20protafolio/Tus_deberes/ctz7rswbzxzh23pzw7mz.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450316/imagenes%20protafolio/Tus_deberes/lghn127nkctmbosomrqn.jpg',
-            ]
+            ],
+            imagenes2: [],
         },
         {    
             info: 'Ticket es una aplicación la cuál se uso para simular como seria la compra de un boleto de camón el cual se podria adquirir desde la aplicación y devolveria un codigo QR, para despues poderlo escanear en los los autobueses.',
@@ -114,7 +124,8 @@ export class ServiceProyecto {
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450017/imagenes%20protafolio/ticket/cc3kkux076u86bumufqs.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450873/imagenes%20protafolio/ticket/zay7klibdkrqmumezukn.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450873/imagenes%20protafolio/ticket/qmmagg7puftv8uzeqtwf.jpg',
-            ]
+            ],
+            imagenes2: [],
         }
     ];
 
@@ -165,5 +176,6 @@ export interface InterfaceProyecto {
     info: string,
     info2: string,
     lenguaje: string,
-    imagenes: string[]
+    imagenes: string[], //capturas móvil
+    imagenes2: string[]  //capturas de web
 }
