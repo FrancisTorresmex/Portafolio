@@ -1,4 +1,9 @@
-#container3 {    
+*{
+    font-family: Esteban;    
+}
+
+#container3 {        
+    letter-spacing: 0.15em;
     background: whitesmoke;            
     margin-top: 1em;    
     padding: 1em;    
@@ -16,6 +21,12 @@
     width: 350px;
     max-width: 100%;
     
+}
+
+.card-title{
+    padding: 0.20em;
+    letter-spacing: 0.15em;
+    background-color: rgb(124, 212, 212);
 }
 
 #colP1 {        

@@ -5,6 +5,7 @@
     font-size: 1.03em;
 }
 
+
 a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
     color: white;    
 }
@@ -16,10 +17,12 @@ a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
 
 
 .articuloProyecto {    
+    letter-spacing: 0.15em;
     padding-top: 2em;        
 }
 
 .miNav {
+    letter-spacing: 0.15em;
     padding: .3em;
     background-color: rgb(0, 116, 124);
     position: fixed;
@@ -88,6 +91,12 @@ a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
 }
 
 .descProyecto {
-    text-align: center;
+    text-align: center;     
     margin: .5em;
+}
+
+.descProyecto2 {
+    text-align: center;     
+    margin: .5em;
+    margin-top: 2em;
 }

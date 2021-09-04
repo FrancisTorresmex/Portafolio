@@ -10,7 +10,8 @@ const ROUTES: Routes = [
   {path: '', component:HomeComponent},
   {path: 'home', component:HomeComponent},
   // {path: 'proyecto', component:ListaDelDiaComponent},
-  {path: 'proyecto/:id', component: ProyectoComponent}
+  {path: 'proyecto/:id', component: ProyectoComponent},
+  {path: '**', redirectTo:''} //si escriben algo que no existe luego del /, los redirige a la de '', que viene siendo mi home
 ];
 
 const routerOptions: ExtraOptions = {

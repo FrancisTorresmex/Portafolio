@@ -11,12 +11,12 @@ export class ServiceProyecto {
         {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630449768/imagenes%20protafolio/Super_farmacias_castillo/onc3vn8jdlfjqygn1gw8.jpg',
             nombre: 'Súper Farmacias Castillo',
-            desc: 'Aplicación multiplataforma inspirada en UberEats para la compra de productos medicos con roles de administrador y usario.',
+            desc: 'Aplicación multiplataforma inspirada en UberEats para la compra de productos médicos con roles de administrador y usuario.',
         },
         {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630449210/imagenes%20protafolio/BpAlarm/znoeujev33jhz8umtxzp.jpg',
             nombre: '!BpAlarm¡',
-            desc: 'Aplicación Web y móvil para la activación de una alarma de mochila con el fin de evitar robos, asi como la creación de la alarma con arduino.',
+            desc: 'Aplicación Web y móvil para la activación de una alarma de mochila con el fin de evitar robos, así como la creación de la alarma con arduino.',
         },
         {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/p7va9vdv4mgqxttoyqkr.jpg',
@@ -36,7 +36,7 @@ export class ServiceProyecto {
         {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450017/imagenes%20protafolio/ticket/cc3kkux076u86bumufqs.jpg',
             nombre: 'Ticket',
-            desc: 'Aplicación móvil creada en Java, para la simulación de la compra de boletos de autobus.',
+            desc: 'Aplicación móvil creada en Java, para la simulación de la compra de boletos de autobús.',
         },
     ]
 
@@ -45,8 +45,8 @@ export class ServiceProyecto {
     //Mas informacíon de cada proyecto
     private masDatosProyecto: InterfaceProyecto[] = [
         {    
-            info: 'Súper farmacias castillo es una aplicación multiplataforma, la cúal permite a los usuarios pedir sus articulos hasta el lugar donde se encuentran, esto usando la API de Google Maps, agregando sus articulos a un carrito de compra en donde se puede modificar la cuenta, y ver sus ordenes.',
-            info2: 'Ademas cuenta con roles de administrador y usuario normal, en donde el administrador puede ver los pedidos que los usuarios han hecho así como la ubiciación, CRUD de productos, CRUD de roles en donde puede agregar mas roles todas estas peticiones protegidas mediante tokens.',
+            info: 'Súper farmacias castillo es una aplicación multiplataforma creada para Farmacias Castillo negocio que pidió una aplicación para entregas a domicilio, la cual permite a los usuarios pedir sus artículos hasta el lugar donde se encuentran, esto usando la API de Google Maps, agregando sus artículos a un carrito de compra en donde se puede modificar la cuenta, y ver sus ordenes.',
+            info2: 'Ademas cuenta con roles de administrador y usuario normal, en donde el administrador puede ver los pedidos que los usuarios han hecho así como la ubicación, CRUD de productos, CRUD de roles en donde puede agregar más roles todas estas peticiones protegidas mediante tokens.',
             lenguaje: 'Dart, C#, Flutter, Net Core, SQL Server',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630528162/imagenes%20protafolio/Super_farmacias_castillo/xivzo99xlw03pwbe4dzb.jpg',
@@ -63,8 +63,8 @@ export class ServiceProyecto {
             imagenes2: [],
         },
         {    
-            info: 'BPAlarm es un conjunto de aplicación web, móvil y dispositivo arduino, en donde para desacargar la app debes registrarte en la aplicación web, luego podras descargar la aplicación móvil, inicar sesión y activar o desactivar tu BpAlarm',
-            info2:'Creado mediante una aplicación móvil, HC-05, alarma, sensores y arduino Uno se diseño un dispositivo que se coloca en la mochila. Sonando cada vez que se activa y detecta que la mochila se movio de lugar',
+            info: 'BPAlarm es un conjunto de aplicación web, móvil y dispositivo arduino, en donde para descargar la app debes registrarte en la aplicación web, luego podras descargar la aplicación móvil, iniciar sesión y activar o desactivar tu BpAlarm.',
+            info2:'Creado mediante una aplicación móvil, HC-05, alarma, sensores y arduino Uno, se diseño un dispositivo que se coloca en la mochila. Sonando cada vez que se activa y detecta que la mochila se movió de lugar.',
             lenguaje: 'C#, TypeScript, C++, Net Core, Iónic',
             imagenes: [                                                                
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450886/imagenes%20protafolio/BpAlarm/rclbcuyh8hbrizwhgls4.jpg',
@@ -82,7 +82,7 @@ export class ServiceProyecto {
             ],
         },
         {    
-            info: 'Lista del día es una aplicación multiplataforma en la cual se puede agregar tareas importantes que se deben hacer durante el dia, esto mediante Sqflite la cual guarda las cosas completadas, se puede eliminar, modificar o agregar nuvas tareas.',
+            info: 'Lista del día es una aplicación multiplataforma en la cual se puede agregar tareas importantes que se deben hacer durante el día, esto mediante Sqflite la cual guarda las cosas completadas, se puede eliminar, modificar o agregar nuevas tareas.',
             info2: '',
             lenguaje: 'Dart y Flutter',
             imagenes: [
@@ -94,7 +94,7 @@ export class ServiceProyecto {
             imagenes2: [],
         },
         {    
-            info: 'BabyHealth es una página web en la que al iniciar sesión puedes obtener información importante respecto a temas del embarazo, desde cuidados, ejercicios, videos, hasta recetas de papilla para bébes.',
+            info: 'BabyHealth es una página web en la que al iniciar sesión puedes obtener información importante respecto a temas del embarazo, desde cuidados, ejercicios, videos, hasta recetas de papilla para bebés.',
             info2: 'Puedes al mismo tiempo ver los datos de tu cuenta, así como modificarlos o eliminar.',
             lenguaje: 'HTML, CSS, PHP, MySql',
             imagenes: [
@@ -105,7 +105,7 @@ export class ServiceProyecto {
         },
         {    
             info: 'Tus deberes es una aplicación móvil en la cual puedes escribir las tareas que debes hacer así como cosas importantes.',
-            info2: 'Se puede editar, modificar, eliminar, esto mediante SQLite',
+            info2: 'Se puede editar, modificar, eliminar, esto mediante SQLite.',
             lenguaje: 'Java',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450312/imagenes%20protafolio/Tus_deberes/jefbgjg1wgu0rxeddaba.jpg',
@@ -116,7 +116,7 @@ export class ServiceProyecto {
             imagenes2: [],
         },
         {    
-            info: 'Ticket es una aplicación la cuál se uso para simular como seria la compra de un boleto de camón el cual se podria adquirir desde la aplicación y devolveria un codigo QR, para despues poderlo escanear en los los autobueses.',
+            info: 'Ticket es una aplicación la cual se utilizó para simular como seria la compra de un boleto de camón el cual se podría adquirir desde la aplicación y devolvería un código QR, para después poderlo escanear en los autobuses.',
             info2: '',
             lenguaje: 'Java, PHP, MySql',
             imagenes: [
