@@ -1,9 +1,5 @@
-*{
-    font-family: Esteban;    
-}
-
 #container3 {        
-    letter-spacing: 0.15em;
+    letter-spacing: 0em;
     background: whitesmoke;            
     margin-top: 1em;    
     padding: 1em;    
@@ -24,9 +20,15 @@
 }
 
 .card-title{
+    font-family: Poppins;
     padding: 0.20em;
-    letter-spacing: 0.15em;
+    letter-spacing: 0em;
     background-color: rgb(124, 212, 212);
+}
+
+.card-text {
+    letter-spacing: 0em;
+    font-family: Esteban;
 }
 
 #colP1 {        
@@ -34,6 +36,8 @@
 }
 
 .btn {
+    letter-spacing: 0em;
+    font-family: Esteban;
     margin-top: 1em;
     background: teal;
     color: white;
