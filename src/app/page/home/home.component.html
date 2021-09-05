@@ -12,7 +12,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
           
       
-      <a class="navbar-brand">
+      <a class="navbar-brand" (click)="scroll(miInicio)">
         <img src="https://res.cloudinary.com/da3adzyke/image/upload/v1630465660/imagenes%20protafolio/kyfa1njm5rqsvmq3ms3d.png" class="iconoNav" alt="Francisco Torres">                
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,7 +127,7 @@
         <p #miCV></p>
         <p class="fs-1" id="tituloContacto">Curriculum vitae</p>    
         <div class="container containerCV">
-          <a [href]="linkCV" class="linkCurriculum" target="_blank">Ver Curriculum</a>                                                      
+          <a [href]="linkCV" class="linkCurriculum" target="_blank" rel="noopener">Ver Curriculum</a>                                                      
         </div>    
         
         
