@@ -10,10 +10,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { ContactoComponent } from './shared/contacto/contacto.component';
-
-
-
-
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -24,7 +22,13 @@ import { ContactoComponent } from './shared/contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,        
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),        
   ],
   providers: [],
   bootstrap: [AppComponent]
