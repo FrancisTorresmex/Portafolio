@@ -133,7 +133,7 @@ export class ServiceProyecto {
 
 
     constructor() {
-        console.log('Servicio listo para trabajar');
+        // console.log('Servicio listo para trabajar');
     }
     
     /** Para ir al proyecto en especifico */

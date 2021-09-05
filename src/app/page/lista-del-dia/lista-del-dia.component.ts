@@ -16,7 +16,7 @@ export class ListaDelDiaComponent implements OnInit {
 
   ngOnInit(): void {
     this.proyectos = this._servicioProyectos.obtenerProyectos();
-    console.log('pryoectos lista del dia', this.proyectos);
+    // console.log('pryoectos lista del dia', this.proyectos);
   }
 
   verProyecto(n: number) {

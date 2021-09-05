@@ -21,7 +21,7 @@ export class ProyectoComponent implements OnInit {
 
     this._activeRoute.params.subscribe(params => //mas información detallada del proyecto
       this.masDatosProyecto = this._ServicioProyecto.verMasDatos(params['id']));
-      console.log('pryoectos mas info', this.masDatosProyecto);      
+      // console.log('pryoectos mas info', this.masDatosProyecto);      
   }
 
   //para ir a un id de la misma pagina
