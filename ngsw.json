@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630811877683,
+  "timestamp": 1630814250416,
   "index": "https://FrancisTorresmex.github.io/Portafolio/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://FrancisTorresmex.github.io/Portafolio/favicon.ico",
         "https://FrancisTorresmex.github.io/Portafolio/index.html",
-        "https://FrancisTorresmex.github.io/Portafolio/main.731f141d561e98b8f71a.js",
+        "https://FrancisTorresmex.github.io/Portafolio/main.97f513319d95e392ccb5.js",
         "https://FrancisTorresmex.github.io/Portafolio/manifest.webmanifest",
         "https://FrancisTorresmex.github.io/Portafolio/polyfills.62d590e7a975532e4671.js",
         "https://FrancisTorresmex.github.io/Portafolio/runtime.702aeb6c6667db169b56.js",
@@ -59,8 +59,8 @@
     "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-96x96.png": "9d0ec6b4aeb3ed86cde0867f690af5260c91e7b0",
     "https://FrancisTorresmex.github.io/Portafolio/assets/telefono.png": "71e2cdaf3ef5f6ea85aa32f726b20d5562b2e316",
     "https://FrancisTorresmex.github.io/Portafolio/favicon.ico": "8c73695290d23e5213c2d06066ca103481c9a9f7",
-    "https://FrancisTorresmex.github.io/Portafolio/index.html": "d14b66101b50e56493bc9ba30130bb7818333708",
-    "https://FrancisTorresmex.github.io/Portafolio/main.731f141d561e98b8f71a.js": "1b6422324d5728acf9eb8d97fbb6a9df9b48e4c3",
+    "https://FrancisTorresmex.github.io/Portafolio/index.html": "f859764584f192aea6b9b85494a2422da36f3631",
+    "https://FrancisTorresmex.github.io/Portafolio/main.97f513319d95e392ccb5.js": "6b779db97bc6efa158d78032b0f8e463c8045d92",
     "https://FrancisTorresmex.github.io/Portafolio/manifest.webmanifest": "c49e6c62642707271796c25585f7293653dc4449",
     "https://FrancisTorresmex.github.io/Portafolio/polyfills.62d590e7a975532e4671.js": "0350bb432f21bed478e43d1bf97d0d3c6ffe0e27",
     "https://FrancisTorresmex.github.io/Portafolio/runtime.702aeb6c6667db169b56.js": "b479324c2640e22e899407734ba92e5fda6a39a8",
