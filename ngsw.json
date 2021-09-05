@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1630801730495,
+  "index": "https://FrancisTorresmex.github.io/Portafolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://FrancisTorresmex.github.io/Portafolio/favicon.ico",
+        "https://FrancisTorresmex.github.io/Portafolio/index.html",
+        "https://FrancisTorresmex.github.io/Portafolio/main.e4b6d056f2472d328ca8.js",
+        "https://FrancisTorresmex.github.io/Portafolio/manifest.webmanifest",
+        "https://FrancisTorresmex.github.io/Portafolio/polyfills.62d590e7a975532e4671.js",
+        "https://FrancisTorresmex.github.io/Portafolio/runtime.702aeb6c6667db169b56.js",
+        "https://FrancisTorresmex.github.io/Portafolio/scripts.52325d4049bfce706619.js",
+        "https://FrancisTorresmex.github.io/Portafolio/styles.1dedd39919a596c57bea.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://FrancisTorresmex.github.io/Portafolio/assets/git.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/gmail.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-128x128.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-144x144.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-152x152.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-192x192.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-384x384.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-512x512.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-72x72.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-96x96.png",
+        "https://FrancisTorresmex.github.io/Portafolio/assets/telefono.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://FrancisTorresmex.github.io/Portafolio/assets/git.png": "9f5eccf4ccc9fba201e3dd86c548702949b4d508",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/gmail.png": "0e1d20751d26e4d0d21f8c5206ca041ba3790142",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://FrancisTorresmex.github.io/Portafolio/assets/telefono.png": "71e2cdaf3ef5f6ea85aa32f726b20d5562b2e316",
+    "https://FrancisTorresmex.github.io/Portafolio/favicon.ico": "8c73695290d23e5213c2d06066ca103481c9a9f7",
+    "https://FrancisTorresmex.github.io/Portafolio/index.html": "aa3fd360f85f3799ac9c2cf9c76b67eb59894992",
+    "https://FrancisTorresmex.github.io/Portafolio/main.e4b6d056f2472d328ca8.js": "f4ccbf96b5f1effbb5b5d98e734631c2499b4885",
+    "https://FrancisTorresmex.github.io/Portafolio/manifest.webmanifest": "c49e6c62642707271796c25585f7293653dc4449",
+    "https://FrancisTorresmex.github.io/Portafolio/polyfills.62d590e7a975532e4671.js": "0350bb432f21bed478e43d1bf97d0d3c6ffe0e27",
+    "https://FrancisTorresmex.github.io/Portafolio/runtime.702aeb6c6667db169b56.js": "b479324c2640e22e899407734ba92e5fda6a39a8",
+    "https://FrancisTorresmex.github.io/Portafolio/scripts.52325d4049bfce706619.js": "f6506e1403f6865775942e58edcfafc6c428693e",
+    "https://FrancisTorresmex.github.io/Portafolio/styles.1dedd39919a596c57bea.css": "259c287ad087e3e7fba8055e61b12fbb62d9f98b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
