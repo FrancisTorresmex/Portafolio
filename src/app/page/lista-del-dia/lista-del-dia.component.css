@@ -2,12 +2,11 @@
     letter-spacing: 0em;
     background: whitesmoke;            
     margin-top: 1em;    
-    padding: 1em;    
+    padding: 1em;        
 }
 
 .card {
-    position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/
-    text-align: center;
+    position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/    
 }
 
 .imgProyecto {
@@ -21,12 +20,14 @@
 
 .card-title{
     font-family: Poppins;
+    text-align: center;
     padding: 0.20em;
     letter-spacing: 0em;
     background-color: rgb(124, 212, 212);
 }
 
 .card-text {
+    text-align: justify;
     letter-spacing: 0em;
     font-family: Esteban;
 }
@@ -35,13 +36,14 @@
     padding: 1em;        
 }
 
-.btn {
+.btn {        
+    display: block; /*el display block y margin auto, sirve para centrar imagenes o botones*/
+    margin: auto;    
     letter-spacing: 0em;
     font-family: Esteban;
     margin-top: 1em;
     background: teal;
-    color: white;
-        
+    color: white;        
 }
 
 .btn:hover {

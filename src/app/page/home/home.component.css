@@ -23,6 +23,7 @@ header {
     background-color: rgb(0, 116, 124);
     position: fixed;
     width: 100%;
+    z-index: 99999;
 }
 
 /* li:hover {    
@@ -68,6 +69,7 @@ a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
     font-family: Esteban;  
     letter-spacing: 0em;
     margin-top: 2em;
+    text-align: justify; /*justificar texto*/
 }
 
 .metas {    
@@ -75,10 +77,11 @@ a:hover {  /* el hover hace que cambie algo al pasar el mouse*/
     letter-spacing: 0em;
     padding: .5em;
     margin-bottom: 10%;
-    text-align: center;
+    text-align: justify;
 }
 
 .subtitulo {
+    text-align: center;
     font-family: Poppins;
     letter-spacing: 0em;
 }
