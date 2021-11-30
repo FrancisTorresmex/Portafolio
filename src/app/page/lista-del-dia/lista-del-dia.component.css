@@ -6,14 +6,15 @@
 }
 
 .card {
-    position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/    
+    position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/   
+    background: rgb(124, 212, 212);
 }
 
 .imgProyecto {
     display: block;
     margin: auto;
     padding: 1em;
-    width: 350px;
+    width: 350px;    
     max-width: 100%;
     
 }
@@ -23,7 +24,9 @@
     text-align: center;
     padding: 0.20em;
     letter-spacing: 0em;
-    background-color: rgb(124, 212, 212);
+    color: white;
+    /* background-color: rgb(124, 212, 212); */
+    background-color: teal;
 }
 
 .card-text {
@@ -47,5 +50,6 @@
 }
 
 .btn:hover {
-    background: rgb(124, 212, 212);
+    /* background: rgb(124, 212, 212); */
+    background: rgb(80, 204, 204);
 }

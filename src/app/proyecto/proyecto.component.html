@@ -16,7 +16,11 @@
 
             <li class="nav-item" routerLinkActive="Active">
                 <a class="nav-link" [routerLink] (click)="irSeccion(Info)">Información</a>
-            </li> 
+            </li>
+            
+            <li class="nav-item" routerLinkActive="Active">
+                <a class="nav-link" [routerLink] (click)="irSeccion(repositorio)">Repositorio</a>
+            </li>
 
             <li class="nav-item" routerLinkActive="Active">
                 <a class="nav-link" [routerLink] (click)="irSeccion(img)">Imagenes</a>
@@ -60,6 +64,31 @@
                 </div>
             </div>
         </div>
+
+        <!--Repositorio-->
+        <p #repositorio></p>
+        <p class="fs-1 titulo">Repositorio de proyecto GitHub</p>
+        <!--privado-->
+        <div class="container containerRepositorio" *ngIf="masDatosProyecto.repositorioBackend == '' && masDatosProyecto.repositorioFrontend == '' ">
+            <p class="repositorio_privado">REPOSITORIO PRIVADO</p>            
+        </div>
+        <!--publico-->
+        <div class="container" *ngIf="masDatosProyecto.repositorioBackend != '' || masDatosProyecto.repositorioFrontend != '' ">
+            <div class="row">
+                <div class="col-sm-12, col-md-12, col-lg-6">
+                    <a [href]="masDatosProyecto.repositorioFrontend" target="_blank">
+                        <img src="assets/repositorio github2.png" alt="Repositorio frontend github" class="repositorioIMG" *ngIf="masDatosProyecto.repositorioFrontend != '' "> 
+                    </a>                    
+                </div>            
+                <div class="col-sm-12, col-md-12, col-lg-6">
+                    <a [href]="masDatosProyecto.repositorioBackend" target="_blank">
+                        <img src="assets/repositorio github.png" alt="Repositorio backend github" class="repositorioIMG" *ngIf="masDatosProyecto.repositorioBackend != '' "> 
+                    </a>                    
+                </div>         
+            </div>               
+        </div>
+        
+        
 
         <!--Mas imagenes-->
         <p #img></p>

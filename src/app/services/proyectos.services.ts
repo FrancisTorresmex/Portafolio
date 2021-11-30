@@ -17,20 +17,20 @@ export class ServiceProyecto {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630449210/imagenes%20protafolio/BpAlarm/znoeujev33jhz8umtxzp.jpg',
             nombre: '!BpAlarm¡',
             desc: 'Aplicación Web y móvil para la activación de una alarma de mochila con el fin de evitar robos, así como la creación de la alarma con arduino.',
+        },        
+        {
+            imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1638301043/imagenes%20protafolio/MIVenta/cnndgkleglyu6nhyjrjy.jpg',
+            nombre: 'MiVenta',
+            desc: 'Aplicación SPA tipo tienda en linea con roles de administrador y rol normal. En donde se pueden crear pedidos así como ver historiales, o manejar los productos existentes.',
         },
         {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/p7va9vdv4mgqxttoyqkr.jpg',
-            nombre: 'Lista del día',
+            nombre: 'Deberes del día',
             desc: 'Aplicación en Flutter para ordenar las tareas del día actual.',
         },
         {
-            imagen: '',
-            nombre: 'BabyHealth',
-            desc: 'Página web con inicio de sesión, creada con el fin de resolver dudas antes y durante el embarazo.',
-        },
-        {
             imagen: 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450312/imagenes%20protafolio/Tus_deberes/jefbgjg1wgu0rxeddaba.jpg',
-            nombre: 'Tus deberes',
+            nombre: 'HoyDeber',
             desc: 'Aplicación móvil creada en java para ordenar los deberes del día.',
         },
         {
@@ -48,6 +48,8 @@ export class ServiceProyecto {
             info: 'Súper farmacias castillo es una aplicación multiplataforma creada para Farmacias Castillo negocio que pidió una aplicación para entregas a domicilio, la cual permite a los usuarios pedir sus artículos hasta el lugar donde se encuentran, esto usando la API de Google Maps, agregando sus artículos a un carrito de compra en donde se puede modificar la cuenta, y ver sus ordenes.',
             info2: 'Ademas cuenta con roles de administrador y usuario normal, en donde el administrador puede ver los pedidos que los usuarios han hecho así como la ubicación, CRUD de productos, CRUD de roles en donde puede agregar más roles todas estas peticiones protegidas mediante tokens.',
             lenguaje: 'Dart, C#, Flutter, Net Core, SQL Server',
+            repositorioBackend: '',
+            repositorioFrontend: '',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1631215819/imagenes%20protafolio/Super_farmacias_castillo/lum7etvo1zr7sk0i77zn.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630528164/imagenes%20protafolio/Super_farmacias_castillo/jwvsh4ugzl2b1ma9vmr4.jpg',
@@ -73,9 +75,11 @@ export class ServiceProyecto {
             ],
         },
         {    
-            info: 'BPAlarm es un conjunto de aplicación web, móvil y dispositivo arduino, en donde para descargar la app debes registrarte en la aplicación web, luego podras descargar la aplicación móvil, iniciar sesión y activar o desactivar tu BpAlarm.',
+            info: 'BpAlarm es un conjunto de aplicación web, móvil y dispositivo arduino, en donde para descargar la app debes registrarte en la aplicación web, luego podras descargar la aplicación móvil, iniciar sesión y activar o desactivar tu BpAlarm.',
             info2:'Creado mediante una aplicación móvil, HC-05, alarma, sensores y arduino Uno, se diseño un dispositivo que se coloca en la mochila. Sonando cada vez que se activa y detecta que la mochila se movió de lugar.',
             lenguaje: 'C#, TypeScript, C++, Net Core, Iónic',
+            repositorioBackend: '',
+            repositorioFrontend: '',
             imagenes: [                                                                
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450886/imagenes%20protafolio/BpAlarm/rclbcuyh8hbrizwhgls4.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630449210/imagenes%20protafolio/BpAlarm/znoeujev33jhz8umtxzp.jpg',
@@ -90,11 +94,33 @@ export class ServiceProyecto {
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630629002/imagenes%20protafolio/BpAlarm/hndlfilpfwe5a9e5hkjd.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630629001/imagenes%20protafolio/BpAlarm/hpcvu7ag436qkb9xp4gn.jpg',
             ],
+        },        
+        {    
+            info: 'MiVenta es una aplicación SPA responsiva que cuenta con tokens y roles, en la cual un usuario puede crear su cuenta, modificarla, ver historiales de compra y hacer pedidos de artículos. Mientras el administrador puede crear, modificar, eliminar productos así como ver historiales de pedidos entregados y no entregados.',
+            info2: 'El backend fue creado con SQL, C#, y .Net Core. Así como el frontend fue creado con TypeScript y Angular.',
+            lenguaje: 'HTML, TypeScript, C#, SQL, .Net Core, Angular',
+            repositorioBackend: 'https://github.com/FrancisTorresmex/WSMiVenta',
+            repositorioFrontend: 'https://github.com/FrancisTorresmex/MiVenta_Angular',
+            imagenes: [],
+            imagenes2: [
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301045/imagenes%20protafolio/MIVenta/d42jvchstqbtq9kzckhv.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301044/imagenes%20protafolio/MIVenta/spjq0uikfbshgkeegyxm.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301043/imagenes%20protafolio/MIVenta/lbq2v3vb7mqsuouuldp2.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301043/imagenes%20protafolio/MIVenta/cnndgkleglyu6nhyjrjy.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301043/imagenes%20protafolio/MIVenta/i5bnxokk1epyzqcgq94y.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301043/imagenes%20protafolio/MIVenta/p0xpb1iixhzjrwnxsvs6.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301044/imagenes%20protafolio/MIVenta/njmkxhth2ukzdeiewbxv.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301044/imagenes%20protafolio/MIVenta/lyqgufl4e1ilnt9ulkes.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301044/imagenes%20protafolio/MIVenta/x4xm3hs0e2t6puds1qzq.jpg',
+                'https://res.cloudinary.com/da3adzyke/image/upload/v1638301045/imagenes%20protafolio/MIVenta/w5d83whb59k5pj1zdhm0.jpg',                
+            ],
         },
         {    
-            info: 'Lista del día es una aplicación multiplataforma en la cual se puede agregar tareas importantes que se deben hacer durante el día, esto mediante Sqflite la cual guarda las cosas completadas, se puede eliminar, modificar o agregar nuevas tareas.',
+            info: 'Deberes del día es una aplicación multiplataforma en la cual se puede agregar tareas importantes que se deben hacer durante el día, esto mediante Sqflite la cual guarda las cosas completadas, se puede eliminar, modificar o agregar nuevas tareas.',
             info2: '',
             lenguaje: 'Dart y Flutter',
+            repositorioBackend: '',
+            repositorioFrontend: 'https://github.com/FrancisTorresmex/Lista_del_dia',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630530930/imagenes%20protafolio/lista_del_d%C3%ADa/qodkgblgnqb5bnmb6mf2.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/p7va9vdv4mgqxttoyqkr.jpg',
@@ -104,19 +130,11 @@ export class ServiceProyecto {
             imagenes2: [],
         },
         {    
-            info: 'BabyHealth es una página web en la que al iniciar sesión puedes obtener información importante respecto a temas del embarazo, desde cuidados, ejercicios, videos, hasta recetas de papilla para bebés.',
-            info2: 'Puedes al mismo tiempo ver los datos de tu cuenta, así como modificarlos o eliminar.',
-            lenguaje: 'HTML, CSS, PHP, MySql',
-            imagenes: [
-                'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/gyh6wecflzlqjzqysxhk.jpg',
-                'https://res.cloudinary.com/da3adzyke/image/upload/v1630432423/imagenes%20protafolio/lista_del_d%C3%ADa/em0b1yebzsznkcextced.jpg'
-            ],
-            imagenes2: [],
-        },
-        {    
-            info: 'Tus deberes es una aplicación móvil en la cual puedes escribir las tareas que debes hacer así como cosas importantes.',
+            info: 'HoyDeber es una aplicación móvil en la cual puedes escribir las tareas que debes hacer así como cosas importantes.',
             info2: 'Se puede editar, modificar, eliminar, esto mediante SQLite.',
             lenguaje: 'Java',
+            repositorioBackend: '',
+            repositorioFrontend: '',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450312/imagenes%20protafolio/Tus_deberes/jefbgjg1wgu0rxeddaba.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450311/imagenes%20protafolio/Tus_deberes/prdpcckbu7og38jytibn.jpg',
@@ -126,9 +144,11 @@ export class ServiceProyecto {
             imagenes2: [],
         },
         {    
-            info: 'Ticket es una aplicación la cual se utilizó para simular como seria la compra de un boleto de camón el cual se podría adquirir desde la aplicación y devolvería un código QR, para después poderlo escanear en los autobuses.',
+            info: 'Ticket-value es una aplicación la cual se utilizó para simular como seria la compra de un boleto de camón el cual se podría adquirir desde la aplicación y devolvería un código QR, para después poderlo escanear en los autobuses.',
             info2: '',
             lenguaje: 'Java, PHP, MySql',
+            repositorioBackend: '',
+            repositorioFrontend: '',
             imagenes: [
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450873/imagenes%20protafolio/ticket/k4jruyfqywl3bxfqhqga.jpg',
                 'https://res.cloudinary.com/da3adzyke/image/upload/v1630450017/imagenes%20protafolio/ticket/cc3kkux076u86bumufqs.jpg',
@@ -186,6 +206,8 @@ export interface InterfaceProyecto {
     info: string,
     info2: string,
     lenguaje: string,
+    repositorioBackend: string, //repositorio de github, si es '', entonces significa que el repositorio es privado y no habra link
+    repositorioFrontend: string,
     imagenes: string[], //capturas móvil
     imagenes2: string[]  //capturas de web
 }
