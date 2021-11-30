@@ -69,11 +69,11 @@
         <p #repositorio></p>
         <p class="fs-1 titulo">Repositorio de proyecto GitHub</p>
         <!--privado-->
-        <div class="container containerRepositorio" *ngIf="masDatosProyecto.repositorioBackend == '' && masDatosProyecto.repositorioFrontend == '' ">
+        <div class="container containerRepositorio_priv" *ngIf="masDatosProyecto.repositorioBackend == '' && masDatosProyecto.repositorioFrontend == '' ">
             <p class="repositorio_privado">REPOSITORIO PRIVADO</p>            
         </div>
         <!--publico-->
-        <div class="container" *ngIf="masDatosProyecto.repositorioBackend != '' || masDatosProyecto.repositorioFrontend != '' ">
+        <div class="container containerRepositorio_public" *ngIf="masDatosProyecto.repositorioBackend != '' || masDatosProyecto.repositorioFrontend != '' ">
             <div class="row">
                 <div class="col-sm-12, col-md-12, col-lg-6">
                     <a [href]="masDatosProyecto.repositorioFrontend" target="_blank">
