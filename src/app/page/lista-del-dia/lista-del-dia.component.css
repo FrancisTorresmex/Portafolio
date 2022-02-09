@@ -1,21 +1,21 @@
 #container3 {        
     letter-spacing: 0em;
-    background: whitesmoke;            
+    /* background: whitesmoke; */
     margin-top: 1em;    
     padding: 1em;        
 }
 
 .card {
     position: static; /*le puse statica solo a la card, porque sin esto al bajar el navbar, la card lo tapaba*/   
-    background: rgb(124, 212, 212);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);    
 }
 
 .imgProyecto {
     display: block;
     margin: auto;
     padding: 1em;
-    width: 350px;    
-    max-width: 100%;
+    width: 600px;    
+    max-width: 50%;
     
 }
 
